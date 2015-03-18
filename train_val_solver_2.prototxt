@@ -1,0 +1,14 @@
+net: "/Users/IkkiTanaka/Documents/kaggle/National_Data_Science_Bowl/ikki2/caffe_bowl_2.prototxt"
+test_iter: 1000
+test_interval: 10000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 300000
+display: 500
+max_iter: 1000000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "/Users/IkkiTanaka/Documents/kaggle/National_Data_Science_Bowl/ikki2/bowl_train"
+solver_mode: CPU
